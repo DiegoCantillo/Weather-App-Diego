@@ -1,0 +1,114 @@
+body{
+  border: 0;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+
+video{
+  width: 100%;
+  position: absolute;
+  top: -100px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.App {
+ text-align: center;
+}
+
+
+.Content-App-weather{
+  width: 35%;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.762);
+  border-radius: 12px;
+  position: relative;
+  color: black;
+  box-shadow: 0px 0px 24px -7px rgba(0,0,0,0.75);
+}
+
+
+.Content-App-weather h1{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  font-size: 45px;
+}
+
+
+.Content-App-weather img{
+  width: 55%;
+  background-color: #0cb9f218;
+  border-radius: 10px;
+}
+
+.img-and-temp {
+  width: 100%;
+}
+
+.Content-App-weather .img-and-temp h3{
+  margin: 0;
+}
+
+.Content-App-weather .img-and-temp h3{
+  font-size: 35px;
+}
+
+
+.Content-App-weather .img-and-temp p .fa-location-dot{
+  font-size: 40px;
+  color: #0cb7f2;
+}
+
+.Content-App-weather .img-and-temp h3 .fa-temperature-half{
+  color: #8c00c1;
+  font-size: 25px;
+}
+
+.description-weather {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.description-weather p {
+  margin: 14px;
+  text-align: justify;
+}
+
+.description-weather p i{
+  color: #8c00c1;
+  font-size: 25px;
+}
+
+.content-p {
+  text-align: justify;
+}
+
+
+button{
+  border: none;
+  padding: 7px;
+  border-radius: 7px;
+  background-color: black;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #0cb7f2 ;
+}
