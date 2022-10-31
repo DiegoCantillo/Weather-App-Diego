@@ -1,5 +1,5 @@
 import './App.css'
-import Weathermap from './components/weathermap'
+import Weathermap from './components/Weathermap'
 import climatime from './components/video/climatime.mp4.mp4'
 import { useEffect, useState } from 'react'
 import PropagateLoader from "react-spinners/PropagateLoader";
