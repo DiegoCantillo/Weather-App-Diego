@@ -18,6 +18,10 @@ body{
   text-align: center;
 }
 
+.App span{
+  margin-top: 200px;
+}
+
 .Content-App-weather{
   width: 35%;
   min-width: 450px;
