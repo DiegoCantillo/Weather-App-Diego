@@ -36,7 +36,7 @@ const Weathermap = () => {
         <div className='Content-App-weather'>
            <h1>Weather App</h1>
            <div className="img-and-temp">
-                <p><i className="fa-solid fa-location-dot"></i> {weatherData.name}, {weatherData.sys?.country == "CO"? "Colombia." : weatherData.sys?.country} </p>
+                <p><i className="fa-solid fa-location-dot"></i> {weatherData.name}, {weatherData.sys?.country === "CO"? "Colombia." : weatherData.sys?.country} </p>
                 <img src= {`http://openweathermap.org/img/wn/${weatherData.weather?.[0].icon}@2x.png`} alt="" />
                 <h3>
                     <i className="fa-solid fa-temperature-half"></i>  {isCelsius? `${tempCelsius.toFixed(0)} °C`  : `${tempFahrenheit.toFixed(0)} °F`} {" "}
