@@ -17,6 +17,7 @@ body{
   height: 100vh;
   position: relative;
   text-align: center;
+  overflow: hidden;
 }
 
 .App span{
